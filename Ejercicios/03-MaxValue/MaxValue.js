@@ -1,6 +1,7 @@
 function MaxValue (shares) {
   // Your code here:
 //Alternativa I
+/*
 let max = shares[1] - shares[0];
 for (let i = 0; i < shares.length - 1; i++) {
   for (let j = i + 1; j < shares.length; j++) {
@@ -8,7 +9,7 @@ for (let i = 0; i < shares.length - 1; i++) {
     if(diferencia > max) max = diferencia;
   }
 }
-return max
+return max*/
 ​
 //Alternativa II
 let max = shares[1] - shares[0];
